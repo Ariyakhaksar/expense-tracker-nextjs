@@ -14,7 +14,7 @@ const IncomeExpense = async (props: Props) => {
       </div>
       <div>
         <h4>Expense</h4>
-        <p className="money minus">$-{addCommas(expense ?? 0)}</p>
+        <p className="money minus">${addCommas(expense ?? 0)}</p>
       </div>
     </div>
   );
